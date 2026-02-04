@@ -10,5 +10,5 @@ using Photon;
 
 namespace Hex_Template
 {
-   
+   //here you type your code
 }
