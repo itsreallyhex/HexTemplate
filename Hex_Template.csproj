@@ -76,6 +76,9 @@
   <ItemGroup>
     <None Include="Directory.Build.props" />
     <None Include="Directory.Build.targets" />
+    <None Include="README">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,9 @@
+I made because most Template nowdays have things already build inside it such as , a whole Menu. Which in my opnion doesn't teach you anything or how to make a menu from scartch.
+
+This Template is for Gorilla Tag, it use the current files (BepInEx, 0Harmony, Assembly CSharp, UnityPlayer, Unitycore, Photon Real Time, and Photon PUN.) You can added more files if you want.	
+
+If you have any problem with Bulid make sure To change Directory Build props to your game directory.
+
+You can change the name and version In PluginInfo
+
+If you have any suggest feel free to DM me on Discore @elhex_.
