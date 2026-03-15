@@ -1,13 +1,13 @@
-#Hex Template — Gorilla Tag BepInEx Plugin Template
+Hex Template — Gorilla Tag BepInEx Plugin Template
 
 A clean, minimal BepInEx plugin template for Gorilla Tag.
 No menus, no bloat — just the essentials so you can build from scratch.
 
-## Why this template?
+Why this template?
 Most templates come with full menus pre-built, which doesn't help you learn.
 This gives you the foundation without making decisions for you.
 
-##What's included
+What's included
 - BepInEx
 - 0Harmony
 - Assembly-CSharp
@@ -16,17 +16,17 @@ This gives you the foundation without making decisions for you.
 
 You can add more references in `Hex_Template.csproj`.
 
-##Getting started
+Getting started
 1. Clone the repo
 2. Open `Directory.Build.props` and set `GamePath` to your Gorilla Tag install directory
 3. Open `Plugininfo.cs` and change the GUID, NAME, and Description to yours
 4. Add your plugin class inside `Test.cs` (see the example in the file)
 5. Build in Release mode — the DLL will be copied to your BepInEx plugins folder automatically
 
-##Customization
+Customization
 - **Name / Version / GUID**: Edit `Plugininfo.cs`
 - **Assembly name**: Edit `Hex_Template.csproj`
 - **Game path**: Edit `Directory.Build.props`
 
-##Contact
+Contact
 Discord: @itsreallyhex
