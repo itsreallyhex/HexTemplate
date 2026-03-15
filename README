@@ -1,9 +1,32 @@
-I made because most Template nowdays have things already build inside it such as , a whole Menu. Which in my opnion doesn't teach you anything or how to make a menu from scartch.
+# Hex Template — Gorilla Tag BepInEx Plugin Template
 
-This Template is for Gorilla Tag, it use the current files (BepInEx, 0Harmony, Assembly CSharp, UnityPlayer, Unitycore, Photon Real Time, and Photon PUN.) You can added more files if you want.	
+A clean, minimal BepInEx plugin template for Gorilla Tag.
+No menus, no bloat — just the essentials so you can build from scratch.
 
-If you have any problem with Bulid make sure To change Directory Build props to your game directory.
+## Why this template?
+Most templates come with full menus pre-built, which doesn't help you learn.
+This gives you the foundation without making decisions for you.
 
-You can change the name and version In PluginInfo
+## What's included
+- BepInEx
+- 0Harmony
+- Assembly-CSharp
+- UnityEngine / UnityEngine.CoreModule
+- Photon Realtime + Photon PUN
 
-If you have any suggest feel free to DM me on Discore @elhex_.
+You can add more references in `Hex_Template.csproj`.
+
+## Getting started
+1. Clone the repo
+2. Open `Directory.Build.props` and set `GamePath` to your Gorilla Tag install directory
+3. Open `Plugininfo.cs` and change the GUID, NAME, and Description to yours
+4. Add your plugin class inside `Test.cs` (see the example in the file)
+5. Build in Release mode — the DLL will be copied to your BepInEx plugins folder automatically
+
+## Customization
+- **Name / Version / GUID**: Edit `Plugininfo.cs`
+- **Assembly name**: Edit `Hex_Template.csproj`
+- **Game path**: Edit `Directory.Build.props`
+
+## Contact
+Discord: @itsreallyhex
