@@ -82,8 +82,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Directory.Build.props" />
-    <None Include="Directory.Build.targets" />
+    <None Include="Directorys\Directory.Build.props" />
+    <None Include="Directorys\Directory.Build.targets" />
     <None Include="README">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
