@@ -30,5 +30,6 @@ You can add more references in `Hex_Template.csproj`.
 - **Assembly name**: Edit `Hex_Template.csproj`
 - **Game path**: Edit `Directory.Build.props`
 
-Contact
-Discord: @itsreallyhex
+
+`Contact
+Discord: @itsreallyhex`
